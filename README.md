@@ -1,17 +1,30 @@
 # Enterprise Python Systems Engineering & Architecture (`py_docs`)
 
-A production-grade Python engineering repository and polyglot architecture guide designed for Principal Software Architects and Senior Engineers with 13+ years of experience across **Node.js / TypeScript** and **PHP (Laravel)**.
+A production-grade Python engineering repository, polyglot architecture guide, and professional illustrated Ebook designed for Principal Software Architects and Senior Engineers with 13+ years of experience across **Node.js / TypeScript** and **PHP (Laravel)**.
 
-This repository features **zero placeholders**, strict static typing (`from __future__ import annotations`), complete runnable implementations, automated unit assertions, and canonical official documentation URLs embedded within every module.
+This repository features **zero placeholders**, strict static typing (`from __future__ import annotations`), complete runnable implementations, automated unit assertions, canonical official documentation URLs, and an end-to-end 28-page Oxford-standard Ebook PDF with intuitive real-world analogies accessible from age 10 onwards.
+
+---
+
+## 📘 Featured Ebook: The Oxford Illustrated Compendium
+
+The repository includes a complete publication-quality Ebook PDF:
+**[`The_Oxford_Enterprise_Python_Compendium.pdf`](The_Oxford_Enterprise_Python_Compendium.pdf)** (28 Pages, US Letter, Oxford Palette, 10 High-DPI Diagrams, Cheatsheets & Master Glossary).
+
+- **Audience**: For Inquiring 10-Year-Old Thinkers to Staff Software Architects.
+- **Pedagogy**: Every advanced topic (Memory Strides, Metaclasses, PagedAttention, ReAct Agents, Concurrency, AppSec) is illuminated through intuitive real-world analogies (Cafeteria lines, Lego mold factories, Airport runways, Detective meaning-magnets, Castle moats) paired with production code.
+- **Compilation Engine**: Build or recompile anytime via `python compile_oxford_ebook.py`.
 
 ---
 
 ## 🏛️ Repository Architecture
 
-The workspace is organized into **8 Progressive Enterprise Tiers**, **3 Foundational Computer Science Pillars**, **7 Career Role Alignment Tracks**, and **Specialized Architectural Whitepapers**:
+The workspace is organized into **8 Progressive Enterprise Tiers**, **3 Foundational Computer Science Pillars**, **7 Career Role Alignment Tracks**, **Specialized Architectural Whitepapers**, and the **Oxford Ebook Publishing Suite**:
 
 ```
 py_docs/
+├── The_Oxford_Enterprise_Python_Compendium.pdf # Complete 28-Page Publication Ebook PDF
+├── book_assets/                       # 10 High-DPI (300 DPI) Architecture Diagrams & Figures
 ├── setup/                             # Environment orchestration, dependencies & health checks
 ├── level_1_basic/                     # Core Language, Loops, Data Structures & Comprehensions
 ├── level_2_moderate/                  # Backend HTTP, SQLite transactions & FastAPI forms
@@ -24,6 +37,8 @@ py_docs/
 ├── dsa/                               # Data Structures & Algorithms (Big-O and C-level memory analysis)
 ├── advanced_oop/                      # Python Data Model, Protocols, Descriptors, Metaclasses & Patterns
 ├── data_science_core/                 # NumPy C-strides, SIMD Vectorization, BLAS & Pandas OLAP
+├── compile_oxford_ebook.py            # Master Multi-Agent PDF Ebook Builder
+├── generate_book_illustrations.py     # High-DPI Diagram Generator (Matplotlib & Pillow)
 └── docs/                              # Deep-dive whitepapers, cheat sheets & career matrices
     ├── career_roles/                  # 7 Role-based syllabi (FSD, AI/ML, MLOps, Data Eng, AppSec)
     ├── official_reference_index.md    # Master documentation index linking every script
